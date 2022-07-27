@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option go_package = "./;sample";
+
+message BenchSmall {
+    string tester = 1;
+    string andy = 2;
+}
+
